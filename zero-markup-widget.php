@@ -7,6 +7,8 @@ Author: Bryan Siegel
 Version: 1.0
 */
 
+//deny entry
+if (! defined('ABSPATH') ) { exit; }
 
 class Zero_Markup_Widget extends WP_Widget {
 
